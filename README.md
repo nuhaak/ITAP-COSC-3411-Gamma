@@ -46,29 +46,65 @@ A minimalist, lightweight command-line calculator built in Python. Designed for 
 ### Installation Steps
 
 1. Clone this repository to your local system:
-   ```bash
+    ```bash
 
     git clone https://github.com/yourusername/cli-math-evaluator.git
 
 2. Navigate into the project directory:
-
-    Bash
+     ```bash
 
    cd cli-math-evaluator
 
 3. Ensure the script file has execution privileges (Unix-based systems):
+     ```bash
 
-Bash
+    chmod +x calculator.py
 
-   chmod +x calculator.py
+### Usage Instructions
 
-## Usage Instructions
 ### Running the Application
-
 Launch the application directly through the terminal:
+    ```bash
 
-Bash
+    python calculator.py
 
-python calculator.py
+## Interactive Commands
 
-   
+Once running, the CLI prompt will await instructions:
+
+* Enter any valid mathematical string expression to evaluate it.
+
+* Type g to display the interactive runtime User Guide.
+
+* Type e to terminate the session and exit the program.
+
+### Example Session Trace
+```text
+
+--- Universal CLI Calculator --- 
+
+This calculator evaluates arithmetic expressions and selected advanced math functions.
+You can combine arithmetic and functions in one expression.
+Allowed operators: +, -, *, /
+Allowed functions: sqrt, sin, cos, tan, log, pow, abs, round, pi
+Example: 5+3*(sqrt(81)/3)-2
+Trigonometric functions use radians, not degrees.
+You can use pi in expressions, such as sin(pi/2), cos(pi), or tan(pi/4).
+
+Enter expression, g for guide, or e to exit: 5 + 3 * (sqrt(81) / 3) - 2
+Result: 12.0
+
+Enter expression, g for guide, or e to exit: pow(2, 3) + log(1)
+Result: 8.0
+
+Enter expression, g for guide, or e to exit: 5/0
+Undefined: division by zero is not allowed.
+
+Enter expression, g for guide, or e to exit: sqrt(-9)
+Negative numbers are not allowed inside sqrt.
+
+Enter expression, g for guide, or e to exit: 5(3+2)
+Missing operator. Use an operator between numbers and parentheses, like 5*(3+2), not 5(3+2).
+
+Enter expression, g for guide, or e to exit: e
+Exiting calculator...
