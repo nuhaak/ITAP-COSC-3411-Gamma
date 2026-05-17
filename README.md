@@ -37,6 +37,7 @@ A minimalist, lightweight command-line calculator built in Python. Designed for 
 
 **Technical Note on Rounding:** Python utilizes "Banker's Rounding" (half-to-even) for numbers exactly halfway between two integers. Consequently, round(4.5) evaluates to 4, whereas round(5.5) evaluates to 6
 
+
 ## Installation & Setup
 ### Prerequisites
 
@@ -45,27 +46,26 @@ A minimalist, lightweight command-line calculator built in Python. Designed for 
 ### Installation Steps
 
 1. Clone this repository to your local system:
-    ```bash
+    ```text
 
-    git clone https://github.com/yourusername/cli-math-evaluator.git
+    git clone https://github.com/nuhaak/ITAP-COSC-3411-Gamma.git
 
 2. Navigate into the project directory:
-     ```bash
+    ```text
 
-   cd cli-math-evaluator
+   cd cli-calculator
 
 3. Ensure the script file has execution privileges (Unix-based systems):
-     ```bash
+   ```text
 
-    chmod +x calculator.py
+    chmod +x CLI.py
 
 ### Usage Instructions
 
 ### Running the Application
 Launch the application directly through the terminal:
-    ```bash
 
-    python calculator.py
+    ./CLI.py
 
 ## Interactive Commands
 
