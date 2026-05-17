@@ -48,15 +48,12 @@ A minimalist, lightweight command-line calculator built in Python. Designed for 
 1. Clone this repository to your local system:
     ```text
     git clone https://github.com/nuhaak/ITAP-COSC-3411-Gamma.git
-
 2. Navigate into the project directory:
     ```text
    cd cli-calculator
-
 3. Ensure the script file has execution privileges (Unix-based systems):
    ```text
     chmod +x CLI.py
-
 ### Usage Instructions
 
 ### Running the Application
