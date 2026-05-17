@@ -46,8 +46,7 @@ A minimalist, lightweight command-line calculator built in Python. Designed for 
 ### Installation Steps
 
 1. Clone this repository to your local system:
-    
-    Bash
+   ```bash
 
     git clone https://github.com/yourusername/cli-math-evaluator.git
 
