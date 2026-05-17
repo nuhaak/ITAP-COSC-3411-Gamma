@@ -41,22 +41,23 @@ A minimalist, lightweight command-line calculator built in Python. Designed for 
 ## Installation & Setup
 ### Prerequisites
 
-    Python 3.6 or higher. No external third-party dependencies are required.
+* Python 3.6 or higher. No external third-party dependencies are required.
 
 ### Installation Steps
 
-    Clone this repository to your local system:
+1. Clone this repository to your local system:
+    
     Bash
 
     git clone https://github.com/yourusername/cli-math-evaluator.git
 
-    Navigate into the project directory:
+2. Navigate into the project directory:
 
-Bash
+    Bash
 
    cd cli-math-evaluator
 
-    Ensure the script file has execution privileges (Unix-based systems):
+3. Ensure the script file has execution privileges (Unix-based systems):
 
 Bash
 
@@ -66,6 +67,7 @@ Bash
 ### Running the Application
 
 Launch the application directly through the terminal:
+
 Bash
 
 python calculator.py
