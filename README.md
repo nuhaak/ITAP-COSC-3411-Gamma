@@ -36,8 +36,38 @@ A minimalist, lightweight command-line calculator built in Python. Designed for 
 | `abs(x)` | Absolute value ($|x|$) | `abs(-5.5)` | `5.5` |
 | `round(x, [n])` | Rounds $x$ to nearest integer or $n$ decimal places | `round(4.57, 1)` | `4.6` |
 
+**Technical Note on Rounding:** Python utilizes "Banker's Rounding" (half-to-even) for numbers exactly halfway between two integers. Consequently, round(4.5) evaluates to 4, whereas round(5.5) evaluates to 6
 
+## Installation & Setup
+### Prerequisites
 
+    Python 3.6 or higher. No external third-party dependencies are required.
 
+### Installation Steps
+
+    Clone this repository to your local system:
+    Bash
+
+    git clone https://github.com/yourusername/cli-math-evaluator.git
+
+    Navigate into the project directory:
+
+Bash
+
+   cd cli-math-evaluator
+
+    Ensure the script file has execution privileges (Unix-based systems):
+
+Bash
+
+   chmod +x calculator.py
+
+## Usage Instructions
+### Running the Application
+
+Launch the application directly through the terminal:
+Bash
+
+python calculator.py
 
    
