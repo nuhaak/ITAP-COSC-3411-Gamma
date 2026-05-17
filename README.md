@@ -22,7 +22,6 @@ A minimalist, lightweight command-line calculator built in Python. Designed for 
     / : Division
 
 ### 2. Functions & Constants
-### 2. Functions & Constants
 
 | Function / Constant | Description | Example Input | Expected Output |
 | :--- | :--- | :--- | :--- |
