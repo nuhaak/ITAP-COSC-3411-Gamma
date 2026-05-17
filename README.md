@@ -73,7 +73,6 @@ Once running, the CLI prompt will await instructions:
 
 ### Example Session Trace
 ```text
-
 --- Universal CLI Calculator --- 
 
 This calculator evaluates arithmetic expressions and selected advanced math functions.
